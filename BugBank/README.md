@@ -34,6 +34,7 @@
 	- [ ] Valor de transferência negativo
 	- [X] Transferência com sucesso
 
-- [X] Conferir extrato
-- [ ] Pagamento (em desenvolvimento)
-- [ ] Saque (em desenvolvimento) 
+- Funcionalidades na Página de Usuário Logado:
+	- [X] Conferir extrato
+	- [ ] Pagamento (em desenvolvimento)
+	- [ ] Saque (em desenvolvimento) 
