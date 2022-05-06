@@ -5,24 +5,23 @@
 	🚧  🚀 Em atualização...  🚧
 </h4>
 
-### Features
-
+### Cenários de Automação ... 30% completos
 - Cadastro de usuário
 	- [ ] Email inválido
-	- [ ] Tentativa sem email
-	- [ ] Tentativa sem nome
-	- [ ] Tentativa sem senha
-	- [ ] Tentativa sem confirmação de senha
-	- [ ] Senhas diferentes
+	- [ ] Sem email
+	- [ ] Sem nome
+	- [ ] Sem senha
+	- [ ] Sem confirmação de senha
+	- [X] Senhas diferentes
 	- [ ] Cadastro com sucesso conta Sem Saldo
 	- [X] Cadatro com sucesso de conta Com Saldo
 - Login de usuário
 	- [ ] Email incorreto 
-	- [X] Senha incorreta
+	- [ ] Senha incorreta
 	- [X] Login sem cadastro de usuário
 	- [ ] Login sem email
 	- [ ] Login sem senha
-	- [ ] Login com sucesso
+	- [X] Login com sucesso
 
 - Realizar transferência
 	- [X] Conta destino errada
@@ -35,6 +34,6 @@
 	- [ ] Valor de transferência negativo
 	- [X] Transferência com sucesso
 
-- [ ] Conferir extrato
+- [X] Conferir extrato
 - [ ] Pagamento (em desenvolvimento)
 - [ ] Saque (em desenvolvimento) 
