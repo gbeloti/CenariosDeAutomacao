@@ -34,7 +34,8 @@
 	- [ ] Sem descrição
 	- [ ] Valor de transferência zero
 	- [ ] Valor de transferência negativo
-	- [X] Transferência com sucesso
+	- [X] Transferência com sucesso - 50% do saldo
+	- [ ] Transferência com sucesso - 100% do saldo
 
 - Funcionalidades na Página de Usuário Logado:
 	- [X] Conferir extrato
