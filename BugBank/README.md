@@ -13,6 +13,7 @@
 	- [ ] Sem senha
 	- [ ] Sem confirmação de senha
 	- [X] Senhas diferentes
+	- [ ] Cadastro de um mesmo usuário pela segunda vez
 	- [ ] Cadastro com sucesso conta Sem Saldo
 	- [X] Cadatro com sucesso de conta Com Saldo
 - Login de usuário
