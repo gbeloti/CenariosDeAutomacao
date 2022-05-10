@@ -38,7 +38,12 @@
 	- [X] Transferência com sucesso - 50% do saldo
 	- [ ] Transferência com sucesso - 100% do saldo
 
+
+- Conferir extrato:
+ 	- [X] Conta com Saldo
+	- [ ] Conta sem Saldo
+
+
 - Funcionalidades na Página de Usuário Logado:
-	- [X] Conferir extrato
 	- [ ] Pagamento (em desenvolvimento)
 	- [ ] Saque (em desenvolvimento) 
