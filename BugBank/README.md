@@ -22,6 +22,7 @@
 	- [X] Login sem cadastro de usuário
 	- [ ] Login sem email
 	- [ ] Login sem senha
+	- [ ] Login sem email e sem senha
 	- [X] Login com sucesso
 	- [ ] Login com sucesso + deslogar
 
