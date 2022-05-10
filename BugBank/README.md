@@ -5,7 +5,7 @@
 	🚧  🚀 Em atualização...  🚧
 </h4>
 
-### Cenários de Automação ... 8/31% completos
+### Cenários de Automação ... 8/31 completos
 - Registro de usuário (2/9)
 	- [ ] E-mail inválido
 	- [ ] Sem e-mail
