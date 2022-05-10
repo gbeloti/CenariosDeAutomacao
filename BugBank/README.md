@@ -5,7 +5,7 @@
 	🚧  🚀 Em atualização...  🚧
 </h4>
 
-### Cenários de Automação ... 8/31 completos
+### Cenários de Automação ... 8/32 completos
 - Registro de usuário (2/9):
 	- [ ] E-mail inválido
 	- [ ] Sem e-mail
@@ -27,13 +27,14 @@
 	- [X] Login com sucesso
 	- [ ] Login e deslogin
 
-- Realizar transferência (3/10):
+- Realizar transferência (3/11):
 	- [X] Conta destino errada
 	- [X] Saldo insuficiente para transferência
 	- [ ] Conta destino inválida
 	- [ ] Letras no lugar do número da conta
 	- [ ] Letras no lugar do dígito da conta
 	- [ ] Sem descrição
+	- [ ] Sem valor de transferência
 	- [ ] Valor de transferência zero
 	- [ ] Valor de transferência negativo
 	- [X] Transferência com sucesso - 50% do saldo
