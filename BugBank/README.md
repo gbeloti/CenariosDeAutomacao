@@ -7,8 +7,8 @@
 
 ### Cenários de Automação ... 30% completos
 - Cadastro de usuário
-	- [ ] Email inválido
-	- [ ] Sem email
+	- [ ] E-mail inválido
+	- [ ] Sem e-mail
 	- [ ] Sem nome
 	- [ ] Sem senha
 	- [ ] Sem confirmação de senha
@@ -17,12 +17,12 @@
 	- [ ] Cadastro com sucesso conta Sem Saldo
 	- [X] Cadatro com sucesso de conta Com Saldo
 - Login de usuário
-	- [ ] Email incorreto 
+	- [ ] E-mail incorreto 
 	- [ ] Senha incorreta
 	- [X] Login sem cadastro de usuário
-	- [ ] Login sem email
+	- [ ] Login sem e-mail
 	- [ ] Login sem senha
-	- [ ] Login sem email e sem senha
+	- [ ] Login sem e-mail e sem senha
 	- [X] Login com sucesso
 	- [ ] Login com sucesso + deslogar
 
