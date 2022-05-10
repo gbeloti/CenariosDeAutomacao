@@ -43,6 +43,6 @@
  	- [X] Conta com Saldo
 	- [ ] Conta sem Saldo
 
-- Funcionalidades na Página de Usuário Logado (0/2)
-	- [ ] Pagamento (em desenvolvimento)
-	- [ ] Saque (em desenvolvimento) 
+- Abas em desenvolvimento pelo site(0/2)
+	- [ ] Pagamento 
+	- [ ] Saque  
