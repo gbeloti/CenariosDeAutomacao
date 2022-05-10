@@ -6,16 +6,16 @@
 </h4>
 
 ### Cenários de Automação ... 30% completos
-- Cadastro de usuário
+- Registro de usuário
 	- [ ] E-mail inválido
 	- [ ] Sem e-mail
 	- [ ] Sem nome
 	- [ ] Sem senha
 	- [ ] Sem confirmação de senha
 	- [X] Senhas diferentes
-	- [ ] Cadastro de um mesmo usuário pela segunda vez
-	- [ ] Cadastro com sucesso conta Sem Saldo
-	- [X] Cadatro com sucesso de conta Com Saldo
+	- [ ] Registro dupo (um mesmo usuário pela segunda vez)
+	- [ ] Conta Sem Saldo
+	- [X] Conta Com Saldo
 - Login de usuário
 	- [ ] E-mail incorreto 
 	- [ ] Senha incorreta
