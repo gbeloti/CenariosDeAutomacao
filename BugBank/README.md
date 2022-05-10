@@ -6,7 +6,7 @@
 </h4>
 
 ### Cenários de Automação ... 8/31 completos
-- Registro de usuário (2/9)
+- Registro de usuário (2/9):
 	- [ ] E-mail inválido
 	- [ ] Sem e-mail
 	- [ ] Sem nome
@@ -17,7 +17,7 @@
 	- [ ] Conta Sem Saldo
 	- [X] Conta Com Saldo
 
-- Login de usuário (2/8)
+- Login de usuário (2/8):
 	- [ ] E-mail incorreto 
 	- [ ] Senha incorreta
 	- [X] Login sem cadastro de usuário
@@ -27,7 +27,7 @@
 	- [X] Login com sucesso
 	- [ ] Login e deslogin
 
-- Realizar transferência (3/10)
+- Realizar transferência (3/10):
 	- [X] Conta destino errada
 	- [X] Saldo insuficiente para transferência
 	- [ ] Conta destino inválida
@@ -39,10 +39,10 @@
 	- [X] Transferência com sucesso - 50% do saldo
 	- [ ] Transferência com sucesso - 100% do saldo
 
-- Conferir extrato (1/2)
+- Conferir extrato (1/2):
  	- [X] Conta com Saldo
 	- [ ] Conta sem Saldo
 
-- Abas em desenvolvimento pelo site(0/2)
+- Abas em desenvolvimento pelo site (0/2):
 	- [ ] Pagamento 
 	- [ ] Saque  
