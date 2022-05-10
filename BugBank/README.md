@@ -24,7 +24,7 @@
 	- [ ] Login sem senha
 	- [ ] Login sem e-mail e sem senha
 	- [X] Login com sucesso
-	- [ ] Login com sucesso + deslogar
+	- [ ] Login e deslogin
 
 - Realizar transferência
 	- [X] Conta destino errada
