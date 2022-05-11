@@ -8,6 +8,7 @@ import io.cucumber.java.Before;
 
 public class Hooks {
 
+	
 	@Before()
 	public void setUp() {
 		acessarSistema();
@@ -15,8 +16,8 @@ public class Hooks {
 
 	@After
 	public void tearDown(Scenario scenario) {
-		capturarTela(scenario);
-		driver.quit();
+//		capturarTela(scenario);
+//		driver.quit();
 	}
 
 }

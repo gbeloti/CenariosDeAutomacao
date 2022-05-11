@@ -11,10 +11,11 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		plugin = {"pretty", "html:target/cucumber-report"},
 		features = "src/test/resources/features",
 		glue = "stepsDefinitions",
-//		tags = "@registro",
+		tags = "@registrar_contaSemSaldo",
 		snippets = SnippetType.CAMELCASE,
 		monochrome = true,
 		dryRun = false
+//		dryRun = true
 		)
 
 public class RunnerTest {}
