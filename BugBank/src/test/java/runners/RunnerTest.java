@@ -11,20 +11,11 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		plugin = {"pretty", "html:target/cucumber-report"},
 		features = "src/test/resources/features",
 		glue = "stepsDefinitions",
-//		tags = "@registroELogin", //feature completa
-//		tags = "@loginInvalido",
-//		tags = "@saldoInsuficiente",
-//		tags = "@registrarSenhaErrada",
-//		tags = "@registrar",
-//		tags = "@login",
-//		tags = "@extrato", //feature completa
-//		tags = "@transferencia", //feature completa
-//		tags = "@transferenciaValida",
-//		tags = "@contaErrada"
-//		tags = "@saldoInsuficiente",
+		tags = "@registrar_contaSemSaldo",
 		snippets = SnippetType.CAMELCASE,
 		monochrome = true,
 		dryRun = false
+//		dryRun = true
 		)
 
 public class RunnerTest {}
