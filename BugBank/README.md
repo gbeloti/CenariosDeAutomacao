@@ -16,19 +16,19 @@
 	- [X] Conta Sem Saldo
 	- [X] Conta Com Saldo
 
-- Login de usuário (2/8):
+- Login de usuário (0/8):
 	- [ ] E-mail incorreto 
 	- [ ] Senha incorreta
-	- [X] Login sem cadastro de usuário
+	- [ ] Login sem cadastro de usuário
 	- [ ] Login sem e-mail
 	- [ ] Login sem senha
 	- [ ] Login sem e-mail e sem senha
-	- [X] Login com sucesso
+	- [ ] Login com sucesso
 	- [ ] Login e deslogin
 
-- Realizar transferência (3/11):
-	- [X] Conta destino errada
-	- [X] Saldo insuficiente para transferência
+- Realizar transferência (0/11):
+	- [ ] Conta destino errada
+	- [ ] Saldo insuficiente para transferência
 	- [ ] Conta destino inválida
 	- [ ] Letras no lugar do número da conta
 	- [ ] Letras no lugar do dígito da conta
@@ -36,11 +36,11 @@
 	- [ ] Sem valor de transferência
 	- [ ] Valor de transferência zero
 	- [ ] Valor de transferência negativo
-	- [X] Transferência com sucesso - 50% do saldo
+	- [ ] Transferência com sucesso - 50% do saldo
 	- [ ] Transferência com sucesso - 100% do saldo
 
-- Conferir extrato (1/2):
- 	- [X] Conta com Saldo
+- Conferir extrato (0/2):
+ 	- [ ] Conta com Saldo
 	- [ ] Conta sem Saldo
 
 - Abas em desenvolvimento pelo site (0/2):
