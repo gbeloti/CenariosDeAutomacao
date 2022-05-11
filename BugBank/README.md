@@ -5,15 +5,14 @@
 	🚧  🚀 Em atualização...  🚧
 </h4>
 
-### Cenários de Automação ... 8/32 completos
-- Registro de usuário (2/9):
+### Cenários de Automação ... 8/31 completos
+- Registro de usuário (2/8):
 	- [ ] E-mail inválido
 	- [ ] Sem e-mail
 	- [ ] Sem nome
 	- [ ] Sem senha
 	- [ ] Sem confirmação de senha
 	- [X] Senhas diferentes
-	- [ ] Registro duplo (um mesmo usuário pela segunda vez)
 	- [ ] Conta Sem Saldo
 	- [X] Conta Com Saldo
 
