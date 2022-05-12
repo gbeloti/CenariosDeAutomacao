@@ -1,11 +1,11 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Registro.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Login.feature");
 formatter.feature({
-  "name": "Registro",
+  "name": "Login",
   "description": "",
   "keyword": "Funcionalidade",
   "tags": [
     {
-      "name": "@registro"
+      "name": "@login"
     }
   ]
 });
@@ -28,84 +28,74 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "conta sem saldo",
+  "name": "login e deslogin",
   "description": "",
   "keyword": "Cenario",
   "tags": [
     {
-      "name": "@registro"
+      "name": "@login"
     },
     {
-      "name": "@registrar_contaSemSaldo"
+      "name": "@login_deslogin"
     }
   ]
 });
 formatter.step({
-  "name": "o usuario clicar no botao registrar",
+  "name": "o usuario informar o \u003cemail\u003e de login",
   "keyword": "Quando "
 });
 formatter.match({
-  "location": "RegistroSteps.oUsuarioClicarNoBotaoRegistrar()"
+  "location": "LoginSteps.oUsuarioInformarOEmailDeLogin()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "informar o \u003cemail\u003e",
+  "name": "informar a \u003csenha\u003e de login",
   "keyword": "E "
 });
 formatter.match({
-  "location": "RegistroSteps.informarOEmail()"
+  "location": "LoginSteps.informarASenhaDeLogin()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "informar o \u003cnome\u003e",
+  "name": "acionar o botao de acessar",
   "keyword": "E "
 });
 formatter.match({
-  "location": "RegistroSteps.informarONome()"
+  "location": "LoginSteps.acionarOBotaoDeAcessar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "informar a \u003csenha\u003e",
+  "name": "o sistema exibe o usuario logado",
   "keyword": "E "
 });
 formatter.match({
-  "location": "RegistroSteps.informarASenha()"
+  "location": "LoginSteps.oSistemaExibeOUsuarioLogado()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "informar a \u003cconfirmacao da senha\u003e",
+  "name": "o usuario acionar o botao de sair",
   "keyword": "E "
 });
 formatter.match({
-  "location": "RegistroSteps.informarAConfirmacaoDaSenha()"
+  "location": "LoginSteps.oUsuarioAcionarOBotaoDeSair()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "clicar no botao cadastrar",
-  "keyword": "E "
-});
-formatter.match({
-  "location": "RegistroSteps.clicarNoBotaoCadastrar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "o sistema exibe a mensagem de confirmacao de conta criada",
+  "name": "o sistema exibe o usuario deslogado",
   "keyword": "Entao "
 });
 formatter.match({
-  "location": "RegistroSteps.oSistemaExibeAMensagemDeConfirmacaoDeContaCriada()"
+  "location": "LoginSteps.oSistemaExibeOUsuarioDeslogado()"
 });
 formatter.result({
   "status": "passed"

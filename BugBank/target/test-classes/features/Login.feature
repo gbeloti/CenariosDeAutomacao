@@ -6,7 +6,6 @@ Funcionalidade: Login
 
 Contexto:
 Dado que o usuario acesse o site BugBank
-E registre uma conta
 
 @login_emailIncorreto
 Cenario: email incorreto
@@ -31,24 +30,20 @@ Entao o sistema exibe a mensagem de usuario ou senha invalidos
 
 @login_semEmail
 Cenario: login sem email
-Quando o usuario nao informar o <email> de login
-E informar a <senha> de login
+Quando informar a <senha> de login
 E acionar o botao de acessar
-Entao o sistema exibe a mensagem de campo obrigatorio
+Entao o sistema exibe a mensagem de campo obrigatorio para o email de login
 
 @login_semSenha
 Cenario: login sem senha
 Quando o usuario informar o <email> de login
-E nao informar a <senha> de login
 E acionar o botao de acessar
-Entao o sistema exibe a mensagem de campo obrigatorio
+Entao o sistema exibe a mensagem de campo obrigatorio para a senha de login
 
 @login_semEmail_SemSenha
 Cenario: login sem email e sem senha
-Quando o usuario nao informar o <email> de login
-E nao informar a <senha> de login
-E acionar o botao de acessar
-Entao o sistema exibe a mensagem de campo obrigatorio
+Quando acionar o botao de acessar
+Entao o sistema exibe a mensagem de campos obrigatorios
 
 @login_sucesso
 Cenario: login com sucesso

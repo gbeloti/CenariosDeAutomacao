@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		plugin = {"pretty", "html:target/cucumber-report"},
 		features = "src/test/resources/features",
 		glue = "stepsDefinitions",
-		tags = "@registrar_contaSemSaldo",
+		tags = "@login_deslogin",
 		snippets = SnippetType.CAMELCASE,
 		monochrome = true,
 		dryRun = false
