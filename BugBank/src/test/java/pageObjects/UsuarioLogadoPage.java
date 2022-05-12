@@ -1,6 +1,5 @@
 package pageObjects;
 
-import static utils.Utils.*;
 import static utils.Functions.*;
 
 import org.openqa.selenium.WebElement;
@@ -9,7 +8,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class UsuarioLogadoPage {
 
-
+	//MAPEAMENTO
+	
 	@FindBy(id = "btn-EXTRATO")
 	private WebElement btnExtrato;
 
@@ -36,10 +36,24 @@ public class UsuarioLogadoPage {
 
 	@FindBy(id = "btnBack")
 	private WebElement btnVoltar;
-
+	
+	@FindBy(id = "btnExit")
+	private WebElement btnSair;
+	
+	// INSTRUCOES
+	
+	public void acionarBtnSair() {
+		sleep(1000);
+		btnSair.click();
+	}
+	
 	// EXTRATO
 
 	// TRANSFERENCIA
+	
+	// PAGAMENTO
+	
+	// SAQUE
 
 
 }

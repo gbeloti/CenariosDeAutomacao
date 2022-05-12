@@ -47,6 +47,9 @@ public class PaginaInicialPage {
 
 	@FindBy(xpath = "(//img[@alt='Icon Close Eye'])[3]")
 	private WebElement imgOlhoConfirmSenha;
+	
+	@FindBy(xpath = "(//img[@alt='Icon Close Eye'])[1]")
+	private WebElement imgOlhoSenhaLogin;
 
 	// MAPEANDO O LOGIN
 
@@ -122,6 +125,15 @@ public class PaginaInicialPage {
 	public void acionarBtnCadastrar() {
 		sleep(500);
 		btnCadastrar.click();
+	}
+	
+	public void registrarConta(String emailGerado, String nomeGerado, String senhaGerada) {
+		btnRegistrar.click();
+		wait.until(ExpectedConditions.visibilityOf(campoEmailReg)).sendKeys(emailGerado);
+		campoNome.sendKeys(nomeGerado);
+		campoSenhaReg.sendKeys(senhaGerada);
+		campoSenhaConfirm.sendKeys(senhaGerada);
+		btnCadastrar.click();
 		conta = wait.until(ExpectedConditions.visibilityOf(msgAlerta)).getText();
 		conta = conta.replaceAll("[^0-9]", "");
 		System.out.println("	Conta: " + conta);
@@ -129,8 +141,36 @@ public class PaginaInicialPage {
 		obterNumDigito(conta);
 		System.out.println("	Numero da conta: " + numConta);
 		System.out.println("	Numero do digito: " + numDigito);
+		wait.until(ExpectedConditions.visibilityOf(btnFecharConfirm)).click();
 	}
 	
+	public void emailIncorreto() {
+		sleep(500);
+		campoEmailLogin.sendKeys(faker.internet().emailAddress());
+	}
+	
+	public void senhaIncorreta() {
+		sleep(500);
+		imgOlhoSenhaLogin.click();
+		campoSenhaLogin.sendKeys(faker.internet().password());
+	}
+	
+	public void informarEmailLogin() {
+		sleep(500);
+		campoEmailLogin.sendKeys(email);
+	}
+	
+	public void informarSenhaLogin() {
+		sleep(500);
+		campoSenhaLogin.sendKeys(senha);
+	}
+	
+	public void acionarBtnAcessar() {
+		sleep(500);
+		btnAcessar.click();
+	}
+	
+
 	
 	// INSTRUCOES DO LOGIN
 

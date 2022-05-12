@@ -107,6 +107,6 @@ public class RegistroSteps {
 	@Entao("o sistema exibe a mensagem de confirmacao de conta criada")
 	public void oSistemaExibeAMensagemDeConfirmacaoDeContaCriada() {
 		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.id("modalText"))));
-		assertTrue(driver.findElement(By.id("modalText")).getText().contains(numConta));
+		assertTrue(driver.findElement(By.id("modalText")).getText().contains("criada com sucesso"));
 	}
 }
