@@ -5,7 +5,7 @@
 	🚧  🚀 Em atualização...  🚧
 </h4>
 
-### Cenários de Automação ... 14/31 completos
+### Cenários de Automação ... 16/31 completos
 - Registro de usuário (8/8):
 	- [X] E-mail inválido
 	- [X] Sem e-mail
@@ -16,15 +16,15 @@
 	- [X] Conta Sem Saldo
 	- [X] Conta Com Saldo
 
-- Login de usuário (0/8):
-	- [ ] E-mail incorreto 
-	- [ ] Senha incorreta
-	- [ ] Login sem cadastro de usuário
-	- [ ] Login sem e-mail
-	- [ ] Login sem senha
-	- [ ] Login sem e-mail e sem senha
-	- [ ] Login com sucesso
-	- [ ] Login e deslogin
+- Login de usuário (8/8):
+	- [X] E-mail incorreto 
+	- [X] Senha incorreta
+	- [X] Login sem cadastro de usuário
+	- [X] Login sem e-mail
+	- [X] Login sem senha
+	- [X] Login sem e-mail e sem senha
+	- [X] Login com sucesso
+	- [X] Login e deslogin
 
 - Realizar transferência (0/11):
 	- [ ] Conta destino errada
