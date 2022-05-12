@@ -6,7 +6,6 @@ Funcionalidade: acessar funcionalidades em desenvolvimento
 
 Contexto:
 Dado que o usuario acesse o site BugBank
-E acesse sua conta
 
 @emDesenvolvimento_pagamento
 Cenario: pagamento

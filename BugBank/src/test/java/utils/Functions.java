@@ -46,10 +46,9 @@ public class Functions {
 	} // Funcao para gerar e guardar o email
 	
 	public static String gerarSenha(String gerSenha) {
-		
 		senha = faker.internet().password();
-		return email;
-	} // Funcao para gerar e guardar o email
+		return senha;
+	} // Funcao para gerar e guardar a senha
 
 	public static String obterSenha(String obterSenha) {
 		return senha;

@@ -11,10 +11,10 @@ Dado que o usuario acesse o site BugBank
 Cenario: extrato conta sem saldo
 Quando o usuario acessa sua conta sem saldo
 E aciona o botao de extrato
-Entao o sistema exibe o extrato
+Entao o sistema exibe o extrato sem saldo
 
 @extrato_comSaldo
 Cenario: extrato conta com saldo
 Quando o usuario acessa sua conta com saldo
 E aciona o botao de extrato
-Entao o sistema exibe o extrato
+Entao o sistema exibe o extrato com saldo

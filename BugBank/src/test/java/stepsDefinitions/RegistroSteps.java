@@ -58,12 +58,12 @@ public class RegistroSteps {
 	public void informarAConfirmacaoDaSenhaIncorreta() {
 		Na(PaginaInicialPage.class).informarConfirmacaoSenhaIncorreta();
 	}
-	
+
 	@Quando("clicar no botao de criar conta com saldo")
 	public void clicarNoBotaoDeCriarContaComSaldo() {
 		Na(PaginaInicialPage.class).adicionarSaldo();
 	}
-	
+
 	@E("clicar no botao cadastrar")
 	public void clicarNoBotaoCadastrar() {
 		Na(PaginaInicialPage.class).acionarBtnCadastrar();
@@ -85,7 +85,7 @@ public class RegistroSteps {
 		assertEquals("É campo obrigatório",
 				driver.findElement(By.xpath("(//p[@class='input__warging'])[5]")).getText());
 	}
-	
+
 	@Entao("o sistema exibe a mensagem de campo obrigatorio para a senha de confirmacao")
 	public void oSistemaExibeAMensagemDeCampoObrigatorioParaASenhaDeConfirmacao() {
 		assertEquals("É campo obrigatório",
@@ -97,7 +97,7 @@ public class RegistroSteps {
 		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.id("modalText"))));
 		assertEquals("Nome não pode ser vazio.", driver.findElement(By.id("modalText")).getText());
 	}
-	
+
 	@Entao("o sistema exibe a mensagem de erro de senhas diferentes")
 	public void oSistemaExibeAMensagemDeErroDeSenhasDiferentes() {
 		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.id("modalText"))));

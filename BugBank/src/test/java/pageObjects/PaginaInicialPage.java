@@ -94,9 +94,8 @@ public class PaginaInicialPage {
 	public void informarSenha() {
 		imgOlhoSenha.click();
 		sleep(500);
-		senha = faker.internet().password();
+		gerarSenha(senha);
 		campoSenhaReg.sendKeys(senha);
-		obterSenha(senha);
 		sleep(500);
 	}
 
@@ -127,7 +126,7 @@ public class PaginaInicialPage {
 		btnCadastrar.click();
 	}
 	
-	public void registrarConta(String emailGerado, String nomeGerado, String senhaGerada) {
+	public void registrarContaSemSaldo(String emailGerado, String nomeGerado, String senhaGerada) {
 		btnRegistrar.click();
 		wait.until(ExpectedConditions.visibilityOf(campoEmailReg)).sendKeys(emailGerado);
 		campoNome.sendKeys(nomeGerado);
@@ -143,6 +142,46 @@ public class PaginaInicialPage {
 		System.out.println("	Numero do digito: " + numDigito);
 		wait.until(ExpectedConditions.visibilityOf(btnFecharConfirm)).click();
 	}
+	
+	public void registrarContaComSaldo(String emailGerado, String nomeGerado, String senhaGerada) {
+		btnRegistrar.click();
+		wait.until(ExpectedConditions.visibilityOf(campoEmailReg)).sendKeys(emailGerado);
+		campoNome.sendKeys(nomeGerado);
+		campoSenhaReg.sendKeys(senhaGerada);
+		campoSenhaConfirm.sendKeys(senhaGerada);
+		adicionarSaldo();
+		btnCadastrar.click();
+		conta = wait.until(ExpectedConditions.visibilityOf(msgAlerta)).getText();
+		conta = conta.replaceAll("[^0-9]", "");
+		System.out.println("	Conta: " + conta);
+		obterNumConta(conta);
+		obterNumDigito(conta);
+		System.out.println("	Numero da conta: " + numConta);
+		System.out.println("	Numero do digito: " + numDigito);
+		wait.until(ExpectedConditions.visibilityOf(btnFecharConfirm)).click();
+	}
+	
+	public void registrarSegundoUser() {
+		sleep(1000);
+		gerarEmail(email);
+		gerarSenha(senha);
+		btnRegistrar.click();
+		wait.until(ExpectedConditions.visibilityOf(campoEmailReg)).sendKeys(email);
+		campoNome.sendKeys(faker.name().fullName());
+		imgOlhoSenha.click();
+		campoSenhaReg.sendKeys(senha);
+		imgOlhoSenha.click();
+		campoSenhaConfirm.sendKeys(senha);
+		adicionarSaldo();
+		btnCadastrar.click();
+		wait.until(ExpectedConditions.visibilityOf(btnFecharConfirm)).click();
+		sleep(500);
+		campoEmailLogin.sendKeys(email);
+		campoSenhaLogin.sendKeys(senha);
+		btnAcessar.click();
+	}
+	
+	// INSTRUCOES DO LOGIN
 	
 	public void emailIncorreto() {
 		sleep(500);
@@ -170,8 +209,10 @@ public class PaginaInicialPage {
 		btnAcessar.click();
 	}
 	
-
-	
-	// INSTRUCOES DO LOGIN
+	public void realizarLogin() {
+		campoEmailLogin.sendKeys(email);
+		campoSenhaLogin.sendKeys(senha);
+		btnAcessar.click();
+	}
 
 }
