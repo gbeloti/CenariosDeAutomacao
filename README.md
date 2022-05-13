@@ -8,6 +8,8 @@
   - Login
   - Transferência
   - Extrato
+  - Pagamento
+  - Saque
 
 - Lolja
   - Carrinho de Compras
