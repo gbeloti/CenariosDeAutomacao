@@ -71,7 +71,7 @@ public class InicialPage {
 	}
 	
 	public void informarSenha() throws Exception {
-		campoSenha.sendKeys("leYmeEfnfARn"); //senha gerada aleatoriamente
+		campoSenha.sendKeys(""); //senha gerada aleatoriamente
 		btnSignInSenha.click();
 		Thread.sleep(5000);
 	}
